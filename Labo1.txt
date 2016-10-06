@@ -1,0 +1,35 @@
+BI : labo1
+
+OLTP, on évite la redondance pour éviter des problèmes de mise à jour etc..
+
+DWH on accepte la redondance pour ne pas faire de jointure et donc c'est plus rapide, mais ces données sont rarement mise à jour.
+
+Service :  services.mmc (windows+r) tourne en paralèlle des autres programmes
+
+Aller sur le task manager -> more détails -> services -> open services
+
+SQL server (BD3IG2016) (doit tourner pour que ça fonctionne)
+
+Points 2 : pas SQL server
+
+Microsoft SQL server -> SQL server management Studio 2012 
+
+
+
+- Les fichiers excel (csv) représente une table avec toutes les données pour chaque personnes(choses) qui correspondant à la table. 
+- Les fichiers sql va importer le contenu des fichiers csv, il fait le chemin de ces fichiers vers la database. Il supprimer la BD si elle existe
+et puis en créer une nouvelle. 
+
+	Il faut adapter le chemin d'accès. C'est au tout début du csv. 
+
+Pour exécuter : File->Open->File->prendre le fichier csv
+Pour qu'il n'y ai pas de bug, faire Query->SQLCMD Mode (il faut que certaines choses soit surligné qui indique que le mode est activé). 
+Il faut le réactivé à chaque fois qu'on exécute
+
+Pour afficher les DWH, cliquer sur DatabaseDiagrames et mettre yes et là va apparaître plusieurs fichiers. C'est les DW
+
+Si problème on tue tout et on refait
+
+Pour installer, on doit adapter le chemin d'accès.
+
+
