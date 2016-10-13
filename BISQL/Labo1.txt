@@ -21,6 +21,8 @@ Microsoft SQL server -> SQL server management Studio 2012
 et puis en créer une nouvelle. 
 
 	Il faut adapter le chemin d'accès. C'est au tout début du csv. 
+		En premier il faut faire new database sur Databases et prendre le chemin d'accès
+		En deuxième il faut mettre le chemin pour accèder à son dossier avec le cvs
 
 Pour exécuter : File->Open->File->prendre le fichier csv
 Pour qu'il n'y ai pas de bug, faire Query->SQLCMD Mode (il faut que certaines choses soit surligné qui indique que le mode est activé). 

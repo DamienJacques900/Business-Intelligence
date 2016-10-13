@@ -1,0 +1,15 @@
+Labo 2 :
+
+1. select count(*) from DimDate   		3652
+
+2. select count(*) from FactinternetSales	60398
+
+3. select count(*) from InternetSalesDetails		//introuvable
+
+4. select count(*) from InternetSalesHeader		//introuvable
+
+5. select count(*) from DimDate d
+where d.DateKey not in(select OrderDateKey from FactInternetSales)	2528
+
+6. select count(*) from FactInternetSales f
+where f.OrderDateKey not in(select DateKey from DimDate)		0
