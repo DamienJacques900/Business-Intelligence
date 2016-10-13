@@ -13,3 +13,5 @@ where d.DateKey not in(select OrderDateKey from FactInternetSales)	2528
 
 6. select count(*) from FactInternetSales f
 where f.OrderDateKey not in(select DateKey from DimDate)		0
+
+Redondance dans le DW donc il prend plus d'espace mémoire
