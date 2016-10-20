@@ -1,0 +1,34 @@
+SQL server data tools
+
+A la première utilisation prendre -> Business Intelligence Settings
+
+Dimension : caractérise un fait
+
+SSAS est un service : SQL  Server Analysis Services
+
+Pour ajouter une nouvelle table, bouton : add/remove object
+
+Dimensions :
+Product
+	Description et nom en français
+Date
+Attributs :
+	DateKey
+	FullDate Alternate Key,
+ 	Année calendrier
+	Nom du mois en Anglais
+	nom du jour de la semaine en Anglais
+
+Employe
+	first name
+	lastname
+	dateNaissance
+
+Quel est le total des ventes réalisées en devise Francs Français pour les produits <Vélo de route 650 Noir, 44> 
+et <Vélo de route 150 rouge, 62> pour toute la période couverte par le Data Warehouse?
+
+
+Quelle est la quantité vendue pour les mêmes critères?
+
+
+Normalement on aurait du changer le nom de SSAS
