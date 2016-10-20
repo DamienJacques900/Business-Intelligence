@@ -1,0 +1,17 @@
+R (64bits):
+
+Pour ouvrir l'interface, faire -> library(Rcmdr)
+Pour l'installer, d'abord faire install package Rcmdr pour pouvoir avoir l'interface.
+
+Pour importer des données :
+	- Aller sur Données -> Importer -> et choisir le fichier correspondant
+Pour visualiser, cliquer sur visualiser
+
+Pour avoir toutes les données que l'on souhaite pour des statistiques :
+	- Aller sur statistiques -> Résumés -> Statistiques statistiques -> Séléctionner les donneées sur lesquelles
+on veut faire les calcule et sélectionner les valeurs que l'on veut. 
+
+Pour avoir le min et max, etc... Il faut aller sur Statistiques-> Résumé -> Jeu de données actives
+
+Pour faire des graphes :
+	- Aller sur graphes et choisir celui qu'on veut. 
