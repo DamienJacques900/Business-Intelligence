@@ -1,0 +1,9 @@
+1.	Combien de célibataires ont acheté un vélo de route aux USA sur toute la période couverte par le Data Warehouse ?
+	
+
+2.	En quelle année a-t-on vendu le plus (en termes de montants) en France ? en Australie ?
+	
+
+3.	En quelle année a-t-on vendu le plus (en termes de quantités) en France ? en Australie ?
+	
+

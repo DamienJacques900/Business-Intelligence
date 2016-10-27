@@ -8,12 +8,32 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>IESN2016Cube1.cube</Name>
-      <FullPath>IESN2016Cube1.cube</FullPath>
+      <Name>Adventure Works DW2014.cube</Name>
+      <FullPath>Adventure Works DW2014.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>IESN2016Cube1.partitions</Name>
-          <FullPath>IESN2016Cube1.partitions</FullPath>
+          <Name>Adventure Works DW2014.partitions</Name>
+          <FullPath>Adventure Works DW2014.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Adventure Works DW2014 1.cube</Name>
+      <FullPath>Adventure Works DW2014 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works DW2014 1.partitions</Name>
+          <FullPath>Adventure Works DW2014 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Adventure Works DW2014 2.cube</Name>
+      <FullPath>Adventure Works DW2014 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works DW2014 2.partitions</Name>
+          <FullPath>Adventure Works DW2014 2.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -36,8 +56,12 @@
       <FullPath>Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Product 1.dim</Name>
-      <FullPath>Product 1.dim</FullPath>
+      <Name>Currency.dim</Name>
+      <FullPath>Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Geography.dim</Name>
+      <FullPath>Geography.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

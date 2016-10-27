@@ -24,12 +24,41 @@
         <ID>Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Product 1</ID>
+        <ID>Currency</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Geography</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>IESN2016Cube1</ID>
+        <ID>Adventure Works DW2014</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Internet Sales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Internet Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Adventure Works DW2014 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Internet Sales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Internet Sales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Adventure Works DW2014 2</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Internet Sales</ID>

@@ -26,9 +26,18 @@ Employe
 
 Quel est le total des ventes réalisées en devise Francs Français pour les produits <Vélo de route 650 Noir, 44> 
 et <Vélo de route 150 rouge, 62> pour toute la période couverte par le Data Warehouse?
-
+ 	399, 336 pour les rouge et 63 pour les noirs 
+	En franc français : 5 pour 15 012,1782
 
 Quelle est la quantité vendue pour les mêmes critères?
+	Pour les rouge 1 202 298,72 et pour les noirs 47 566,6422
 
+Quelle est le total des ventes réalisées et la quantité vendue pour les mêmes critères  avec comme condition d’être vendue un lundi?
+	50 pour un total de 144 950,681
+	En franc français : null
 
 Normalement on aurait du changer le nom de SSAS
+
+
+Pour faire une requête mettre dans dimension la requête puis dans measures group aller dans internet sales
+et clique droit sur un des éléments et faire add query.
