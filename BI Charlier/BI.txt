@@ -15,3 +15,6 @@ Pour avoir le min et max, etc... Il faut aller sur Statistiques-> Résumé -> Jeu 
 
 Pour faire des graphes :
 	- Aller sur graphes et choisir celui qu'on veut. 
+
+
+Welch two sample t-test => Moyenne ->t-test indépendant
