@@ -2,7 +2,7 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>Adventure Works DW2014</ID>
+        <ID>Adventure Works DW</ID>
         <ConnectionString>Provider=SQLNCLI11.1;Data Source=IE-010-W3200M28\BD3IG2016;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
@@ -15,63 +15,15 @@
         <ID>Date</ID>
       </Dimension>
       <Dimension>
-        <ID>Product</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Employee</ID>
-      </Dimension>
-      <Dimension>
         <ID>Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Currency</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Geography</ID>
+        <ID>Product</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Adventure Works DW2014</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Internet Sales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Internet Sales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Adventure Works DW2014 1</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Internet Sales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Internet Sales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Adventure Works DW2014 2</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Internet Sales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Internet Sales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Adventure Works DW2014 3</ID>
+        <ID>Analysis Services Tutorial</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Internet Sales</ID>

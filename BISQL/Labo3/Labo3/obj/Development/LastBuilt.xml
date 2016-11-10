@@ -24,29 +24,29 @@
       <b>17</b>
     </Hash>
   </Item>
-  <Item name="Customer.dim">
-    <Time>636131677571767984</Time>
+  <Item name="Employee.dim">
+    <Time>636125611243506774</Time>
     <Hash length="20">
-      <b>29</b>
-      <b>203</b>
-      <b>200</b>
-      <b>173</b>
-      <b>235</b>
-      <b>204</b>
-      <b>173</b>
-      <b>251</b>
-      <b>242</b>
-      <b>24</b>
-      <b>242</b>
-      <b>200</b>
-      <b>200</b>
-      <b>100</b>
-      <b>199</b>
-      <b>163</b>
-      <b>105</b>
-      <b>173</b>
-      <b>189</b>
-      <b>193</b>
+      <b>99</b>
+      <b>248</b>
+      <b>172</b>
+      <b>19</b>
+      <b>141</b>
+      <b>195</b>
+      <b>77</b>
+      <b>43</b>
+      <b>26</b>
+      <b>214</b>
+      <b>120</b>
+      <b>170</b>
+      <b>219</b>
+      <b>42</b>
+      <b>150</b>
+      <b>10</b>
+      <b>30</b>
+      <b>220</b>
+      <b>19</b>
+      <b>109</b>
     </Hash>
   </Item>
   <Item name="Labo3.database">
@@ -74,6 +74,31 @@
       <b>161</b>
     </Hash>
   </Item>
+  <Item name="Product.dim">
+    <Time>636131670748025145</Time>
+    <Hash length="20">
+      <b>136</b>
+      <b>41</b>
+      <b>50</b>
+      <b>35</b>
+      <b>110</b>
+      <b>111</b>
+      <b>150</b>
+      <b>171</b>
+      <b>128</b>
+      <b>225</b>
+      <b>151</b>
+      <b>249</b>
+      <b>81</b>
+      <b>138</b>
+      <b>38</b>
+      <b>69</b>
+      <b>235</b>
+      <b>218</b>
+      <b>39</b>
+      <b>196</b>
+    </Hash>
+  </Item>
   <Item name="Adventure Works DW2014 2.partitions">
     <Time>636131674764183411</Time>
     <Hash length="20">
@@ -97,31 +122,6 @@
       <b>94</b>
       <b>159</b>
       <b>1</b>
-    </Hash>
-  </Item>
-  <Item name="Adventure Works DW2014.dsv">
-    <Time>636131658037135943</Time>
-    <Hash length="20">
-      <b>209</b>
-      <b>171</b>
-      <b>85</b>
-      <b>252</b>
-      <b>207</b>
-      <b>54</b>
-      <b>79</b>
-      <b>178</b>
-      <b>126</b>
-      <b>13</b>
-      <b>192</b>
-      <b>37</b>
-      <b>149</b>
-      <b>130</b>
-      <b>180</b>
-      <b>60</b>
-      <b>250</b>
-      <b>175</b>
-      <b>236</b>
-      <b>81</b>
     </Hash>
   </Item>
   <Item name="Adventure Works DW2014 1.partitions">
@@ -225,7 +225,7 @@
     </Hash>
   </Item>
   <Item name="Adventure Works DW2014 2.cube">
-    <Time>636131677570627959</Time>
+    <Time>636143727449225666</Time>
     <Hash length="20">
       <b>95</b>
       <b>183</b>
@@ -274,54 +274,79 @@
       <b>52</b>
     </Hash>
   </Item>
-  <Item name="Employee.dim">
-    <Time>636125611243506774</Time>
+  <Item name="Adventure Works DW2014 3.cube">
+    <Time>636143729691054231</Time>
     <Hash length="20">
-      <b>99</b>
-      <b>248</b>
-      <b>172</b>
-      <b>19</b>
-      <b>141</b>
-      <b>195</b>
-      <b>77</b>
-      <b>43</b>
-      <b>26</b>
-      <b>214</b>
-      <b>120</b>
-      <b>170</b>
-      <b>219</b>
-      <b>42</b>
-      <b>150</b>
-      <b>10</b>
-      <b>30</b>
-      <b>220</b>
-      <b>19</b>
-      <b>109</b>
+      <b>147</b>
+      <b>161</b>
+      <b>122</b>
+      <b>237</b>
+      <b>168</b>
+      <b>91</b>
+      <b>247</b>
+      <b>167</b>
+      <b>110</b>
+      <b>20</b>
+      <b>31</b>
+      <b>196</b>
+      <b>63</b>
+      <b>188</b>
+      <b>153</b>
+      <b>117</b>
+      <b>190</b>
+      <b>148</b>
+      <b>222</b>
+      <b>185</b>
     </Hash>
   </Item>
-  <Item name="Product.dim">
-    <Time>636131670748025145</Time>
+  <Item name="Adventure Works DW2014.dsv">
+    <Time>636131658037135943</Time>
     <Hash length="20">
-      <b>136</b>
-      <b>41</b>
-      <b>50</b>
-      <b>35</b>
-      <b>110</b>
-      <b>111</b>
-      <b>150</b>
+      <b>209</b>
       <b>171</b>
-      <b>128</b>
-      <b>225</b>
-      <b>151</b>
-      <b>249</b>
+      <b>85</b>
+      <b>252</b>
+      <b>207</b>
+      <b>54</b>
+      <b>79</b>
+      <b>178</b>
+      <b>126</b>
+      <b>13</b>
+      <b>192</b>
+      <b>37</b>
+      <b>149</b>
+      <b>130</b>
+      <b>180</b>
+      <b>60</b>
+      <b>250</b>
+      <b>175</b>
+      <b>236</b>
       <b>81</b>
-      <b>138</b>
-      <b>38</b>
-      <b>69</b>
+    </Hash>
+  </Item>
+  <Item name="Customer.dim">
+    <Time>636131677571767984</Time>
+    <Hash length="20">
+      <b>29</b>
+      <b>203</b>
+      <b>200</b>
+      <b>173</b>
       <b>235</b>
-      <b>218</b>
-      <b>39</b>
-      <b>196</b>
+      <b>204</b>
+      <b>173</b>
+      <b>251</b>
+      <b>242</b>
+      <b>24</b>
+      <b>242</b>
+      <b>200</b>
+      <b>200</b>
+      <b>100</b>
+      <b>199</b>
+      <b>163</b>
+      <b>105</b>
+      <b>173</b>
+      <b>189</b>
+      <b>193</b>
     </Hash>
   </Item>
   <Item name="Adventure Works DW2014 1.cube">
@@ -347,6 +372,31 @@
       <b>117</b>
       <b>249</b>
       <b>156</b>
+    </Hash>
+  </Item>
+  <Item name="Adventure Works DW2014 3.partitions">
+    <Time>636143729691171440</Time>
+    <Hash length="20">
+      <b>26</b>
+      <b>248</b>
+      <b>155</b>
+      <b>30</b>
+      <b>184</b>
+      <b>19</b>
+      <b>140</b>
+      <b>237</b>
+      <b>164</b>
+      <b>148</b>
+      <b>110</b>
+      <b>70</b>
+      <b>22</b>
+      <b>100</b>
+      <b>114</b>
+      <b>85</b>
+      <b>108</b>
+      <b>77</b>
+      <b>235</b>
+      <b>159</b>
     </Hash>
   </Item>
   <Item name="Adventure Works DW2014.ds">
