@@ -1,0 +1,53 @@
+Régression linéaire :
+
+Variable que l'on chercher à prévoir (y) = variable dépendante ou variable cible ou variable expliquée
+Variable(s) pour expliquer la variable dépendante = variable(s) indépendante(s) ou vairable(s) explicative(s)
+
+Régression linéaire simple :
+	L’équation estimée de la régression linéaire simple : y = ax+b.
+	b s'appelle l'intercepte
+	a est la pente de la droite de régression.
+
+	y barre est la valeur estimé pour la valeur nutritionnel des céréales mais ce n'est pas ça
+qu'on obtient. y lui est la valeur qu'on obtient. Le but de la régression linéaire simple et 
+d'expliquer la diffèrence entre le y et le y barre (y - y barre). 
+	Faire la somme des différence va se rapprocher forcement de 0 car il y aura des valeurs
+au-dessus de y barre et certaine en-dessous donc on va calculer la somme des carré de la différence
+(somme (y - y barre)exposant2) = somme des carrés totaux (SCT) qui explique la variabilité de y
+	Dans le schéma on va prendre pour chaque taux nutritionnel (yi) la valeur en sucres (ici on
+prend sucre mais on pourrait prendre autre chose) (xi) qui lui correspond et placer les points dans
+le schéma. (xi;yi) On va voir du coup si on a une bonne explication de la valeur du taux nutritionnel
+par rapport au sucre. On va donc essayer de trouver la droite qui va passer au plus proche de l'ensemble
+des points. On va essayer de minimiser l'écart entre la droite et les points. Le yi chapeau correspond
+au valeur du y de la droite. On va essayer de minimiser la somme des distance entre les points et la
+droite. Somme des distance = somme(yi-yi chapeau) mais ici aussi on va mettre au carré car cela se 
+rapproche également de zéro et donc pour éviter les compensations on va mettre au carré.
+Somme des carrés des erreurs (SCE) = somme(yi - yi chapeau)exposant2 permet de modifier la valeur de yi
+par yi chapeau pour minimiser les erreurs. 
+
+Droite de régression : y = ax+b
+
+a= somme (xi-x barre)(yi - y barre) / somme (xi-x barre)exposant 2
+b = y barre - ax barre
+
+yi = valeur nutritionnel
+yi chapeau = valeur de la droite de régression
+y barre = valeur nutritionnel moyenne
+
+Le but est d'expliquer l'écart entre yi et y barre.
+
+Somme des carrés de la régression (SCR) = somme (yi chapeau - y barre)exposant 2
+Somme des carrés des erreurs (SCE) = somme(yi - yi chapeau)exposant2
+Somme des carrés totaux (SCT) = somme(yi - y barre)exposant2
+
+yi chapeau permet d'expliquer l'erreur entre yi chapeau et y barre mais il reste à expliquer l'erreur entre
+yi chapeau et yi.
+
+SCT = SCE + SCR
+Rcarré = SCR/SCT cela apporte un pourcentage d'explication que la sucre apporte par rapport à la variabilité
+de y. 
+
+C'est le tableau anova qui va fournir les informations nécessaires. 
+
+Coefficient de corrélation = r
+Coefficient de determination = r carré

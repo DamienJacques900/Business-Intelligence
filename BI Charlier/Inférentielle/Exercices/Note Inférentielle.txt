@@ -1,0 +1,86 @@
+Question 1 :
+
+On a une hypothèse H0, exemple p = 50. On détermine l'hypothèse H1 comme les autres hypothèse qui contredise
+l'hypothèse H0
+
+Quand on fait le test on se place toujours selon l'hypothèse H0.
+Si on est sur l'hypothèse avec un échantillon alors ça confirme l'hypothèse.
+Si un écart mais qu'il est petit, c'est due au hasard de l'échantillon donc on rejette pas.
+Si plus grand écart, on se demande à partir de quand on rejette l'échantillon donc l'hypothèse est fausse
+car plus du au hasard de l'échantillon?
+Ca suit une loi normale.
+Si niveau d'incertitude est de 5%, si on prend l'air qui correspond à 5% de l'air total (schéma loi normale)
+alors on rejette H0 si on se trouve dans cette région là. 
+
+Si on se trouve là, ça veut dire qu'on avait tellement peu de chance de tomber là dedans que l'hypothèse est 
+fausse. Mais peut-être qu'on a vraiment pas eu de chance et qu'on dit que c'est faux alors que c'est vrai.
+C'est pris en compte par l'erreur alpha : prob de rejetter H0 alors que H0 est vrai. Mais peu de chance de 
+se tromper en disant que l'hypothèse est fausse. Donc on va garder l'hypothèse H1.
+
+Si on se trouve pas dans l'échantillon de rejet mais pas non plus à la valeur de H0 alors on estime que 
+c'est du au hasard et donc on ne rejette pas H0. On ne dit pas qu'on accepte mais qu'on ne rejette pas car 
+on tombe sur un échantillon qui confirme H0 mais on n'a pas donné la preuve.
+
+Question 2
+
+Pour savoir si loi normale :
+Statistique descriptive :
+	Histogramme : il faut faire attention car des fois on pourrait croire que ça ne fait pas partie
+d'une loi normale alors que si on prend des classes plus petites on voit que si. Les échelles utilisées sont
+importantes et peuvent induire en erreur.
+	box plot
+	QQ Plot : graphique quantiles à quantiles. Si on suit une loi normale, elle doit se situer près de la
+barre. Dans ce cas là on a tendances à quitter la loi normale donc tendance à considérer que ce n'est pas une
+loi normale.
+	Certains indicateurs statistiques
+Conclusion que sur les données qu'on a
+
+Statistique inférentielle (test d'hypothèse) :
+	Khi carré
+	Shapiro Wilk : test plus fort que Kolmogorov-Smirnov, très bon quand on a moins de 50 valeurs.
+	Kolmogorov-Smirnov : test plus utilisé quand on a plus de 50 valeurs.
+Conclusion sur la population correspondante 
+
+Intéprétation des résultat :
+
+On standardise la loi normale sur la graphe pour que 0 soit au milieu
+
+Kolmogorov-Smirnov :
+	Statistique : grandeur expérimentale, elle détermine la limite de la région de rejet.
+	(ex : -0.818 et .0818)
+	ddl : //
+	Signification : permet de savoir ce qu'on va conclure par rapport au test. C'est la chance d'être
+	dans la région de rejet et donc on suppose que l'hypothèse est fausse.
+
+Shapiro Wilk : 
+	Statistique : grandeur expérimentale, elle détermine la limite de la région de rejet.
+	(ex : -0.818 et .0818)
+	ddl : //
+	Signification : permet de savoir ce qu'on va conclure par rapport au test. C'est la chance d'être
+	dans la région de rejet et donc on suppose que l'hypothèse est fausse. 
+
+Grandeur expérimentale détermine la valeur limite de rejet (0.094 et 0.818)
+Signification : chance de trouver une valeur qui se trouve dans la région de rejet et si c'est la cas
+alors l'hypothèse est fausse.
+
+Test Valeur :
+
+	p-valeur : chance de trouver un échantillon qui aller me donner cette valeur là (846). Donc on ne
+	rejette pas H0 car la p-valeur est de 31% et donc 846 n'est pas significativement plus grand que
+	800 et donc ne donne pas la certitude d'avoir plus de 800 téléchargement par mois. 
+
+	Attention : conditions d’utilisation du test :
+	-	Un échantillon de n individus indépendants 
+	-	La variable suit une loi normale ou n >30.
+
+Test d'égalité :
+	Conditions d’utilisation: 
+	-	Deux échantillons de n1 et n2 individus indépendants
+	-	La variable suit une loi normale dans chaque population ou n1 et n2 >30
+	-	La variable a la même variance dans les deux populations : Test F
+	Compléments: 
+	- Pour comparer plusieurs populations dans les mêmes conditions : analyse de variance  
+	- Si les hypothèses de normalité ou d'égalité des variances ne sont pas vérifiées, on utilise
+	- soit un test non-paramétrique (Wilcoxon /U-Mann Whitney) 
+	- soit un changement de variable  
+

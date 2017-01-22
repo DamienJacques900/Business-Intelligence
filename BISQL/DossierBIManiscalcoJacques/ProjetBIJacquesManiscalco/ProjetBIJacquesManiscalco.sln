@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjetBIJacquesManiscalco", "ProjetBIJacquesManiscalco\ProjetBIJacquesManiscalco.dwproj", "{0BBFDB72-C7C8-4244-91A4-5B9AD4BAD1CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BBFDB72-C7C8-4244-91A4-5B9AD4BAD1CD}.Development|Default.ActiveCfg = Development
+		{0BBFDB72-C7C8-4244-91A4-5B9AD4BAD1CD}.Development|Default.Build.0 = Development
+		{0BBFDB72-C7C8-4244-91A4-5B9AD4BAD1CD}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

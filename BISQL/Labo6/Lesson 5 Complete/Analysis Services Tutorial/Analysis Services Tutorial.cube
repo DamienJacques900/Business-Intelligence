@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53a00816-c2a2-45d4-8d3e-a61f8d950d19" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53a00816-c2a2-45d4-8d3e-a61f8d950d19" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Adventure Works DW</ID>
   <Name>Analysis Services Tutorial</Name>
   <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8058" scrolltop="3890" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24818" y="21087" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="76" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8058" scrolltop="3890" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="36380" y="16536" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Product" left="1635" top="9477" logicalid="38" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Product" left="1635" top="9477" logicalid="38" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000e11000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Geography" left="19885" top="20577" logicalid="39" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Geography" left="19885" top="20577" logicalid="39" controlid="2" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000cf12000088130000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Customer" left="20189" top="27977" logicalid="40" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Customer" left="20189" top="27977" logicalid="40" controlid="3" masterid="0" hint1="0" hint2="0" width="4207" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800006f10000088130000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSales" left="1900" top="16877" logicalid="41" controlid="4" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="InternetSales" left="1900" top="16877" logicalid="41" controlid="4" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
             </control>
@@ -121,7 +121,7 @@
               <point x="6001" y="21027" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Reseller" left="27100" top="20577" logicalid="45" controlid="8" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Reseller" left="27100" top="20577" logicalid="45" controlid="8" masterid="0" hint1="0" hint2="0" width="4550" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000c611000088130000" />
             </control>
@@ -150,7 +150,7 @@
               <point x="27100" y="23077" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Promotion" left="8401" top="5777" logicalid="47" controlid="10" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Promotion" left="8401" top="5777" logicalid="47" controlid="10" masterid="0" hint1="0" hint2="0" width="4710" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800006612000088130000" />
             </control>
@@ -181,7 +181,7 @@
               <point x="6001" y="17727" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesTerritory" left="15511" top="14142" logicalid="49" controlid="12" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="SalesTerritory" left="15511" top="14142" logicalid="49" controlid="12" masterid="0" hint1="0" hint2="0" width="4762" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800009a120000fe0b0000" />
             </control>
@@ -232,7 +232,7 @@
               <point x="6001" y="19377" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Employee" left="22673" top="13177" logicalid="52" controlid="15" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Employee" left="22673" top="13177" logicalid="52" controlid="15" masterid="0" hint1="0" hint2="0" width="6402" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800000219000088130000" />
             </control>
@@ -282,7 +282,7 @@
               <point x="23674" y="13177" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="ResellerSales" left="10839" top="-1623" logicalid="55" controlid="18" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="ResellerSales" left="10839" top="-1623" logicalid="55" controlid="18" masterid="0" hint1="0" hint2="0" width="4286" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000be10000088130000" />
             </control>
@@ -393,7 +393,7 @@
               <point x="14632" y="3377" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Date" left="-5685" top="16877" logicalid="61" controlid="24" masterid="0" hint1="0" hint2="0" width="5185" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Date" left="-5685" top="16877" logicalid="61" controlid="24" masterid="0" hint1="0" hint2="0" width="5185" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000800004114000088130000" />
             </control>
@@ -518,7 +518,7 @@
               <point x="1900" y="17727" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="InternetSalesReason" left="0" top="0" logicalid="68" controlid="31" masterid="0" hint1="0" hint2="0" width="4587" height="2364" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="InternetSalesReason" left="0" top="0" logicalid="68" controlid="31" masterid="0" hint1="0" hint2="0" width="4587" height="2364" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000eb1100003c090000" />
             </control>
@@ -549,7 +549,7 @@
               <point x="2293" y="2364" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesReason" left="6966" top="16427" logicalid="70" controlid="33" masterid="0" hint1="0" hint2="0" width="5009" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="SalesReason" left="6966" top="16427" logicalid="70" controlid="33" masterid="0" hint1="0" hint2="0" width="5009" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="0008000091130000e30a0000" />
             </control>
@@ -580,7 +580,7 @@
               <point x="4587" y="632" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="SalesQuotas" left="0" top="0" logicalid="72" controlid="35" masterid="0" hint1="0" hint2="0" width="4092" height="3633" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="SalesQuotas" left="0" top="0" logicalid="72" controlid="35" masterid="0" hint1="0" hint2="0" width="4092" height="3633" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000fc0f0000310e0000" />
             </control>
@@ -1848,6 +1848,7 @@
           <IntermediateCubeDimensionID>Reseller</IntermediateCubeDimensionID>
           <IntermediateGranularityAttributeID>Geography Key</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
       <Partitions />
@@ -2026,6 +2027,7 @@
           <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
           <IntermediateGranularityAttributeID>Sales Territory Key</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
       <Partitions />
@@ -2110,6 +2112,7 @@
           <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
           <IntermediateGranularityAttributeID>Sales Territory Key</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
       <Partitions />
@@ -2118,4 +2121,225 @@
   <Source dwd:design-time-name="aed510fc-736a-4413-af75-bba539ffc17e">
     <DataSourceViewID>Adventure Works DW</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="5fdd1a37-5e6d-4b29-a3f7-a4f838816208">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;       
+/* Calculations to aggregate Internet Sales and Reseller Sales measures */
+CREATE MEMBER CURRENTCUBE.[Measures].[Total Sales Amount]
+ AS [Measures].[Internet Sales-Sales Amount]+[Measures].[Reseller Sales-Sales Amount], 
+FORMAT_STRING = "Currency", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Sales Amount], [Reseller Sales-Sales Amount] }, 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Total Product Cost]
+ AS [Measures].[Internet Sales-Total Product Cost]+[Measures].[Reseller Sales-Total Product Cost], 
+FORMAT_STRING = "Currency", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Total Product Cost], [Reseller Sales-Total Product Cost] }, 
+VISIBLE = 1;    
+/* Calculations to calculate gross profit margin */
+CREATE MEMBER CURRENTCUBE.[Measures].[Internet GPM]
+ AS ([Measures].[Internet Sales-Sales Amount]-[Measures].[Internet Sales-Total Product Cost])/[Measures].[Internet Sales-Sales Amount], 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Sales Amount] }, 
+VISIBLE = 1;    
+CREATE MEMBER CURRENTCUBE.[Measures].[Reseller GPM]
+ AS ([Measures].[Reseller Sales-Sales Amount]-[Measures].[Reseller Sales-Total Product Cost])/[Measures].[Reseller Sales-Sales Amount], 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Reseller Sales-Sales Amount] }, 
+VISIBLE = 1;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Total GPM]
+ AS ([Measures].[Total Sales Amount]-[Measures].[Total Product Cost])/[Measures].[Total Sales Amount], 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Sales Amount], [Reseller Sales-Sales Amount] }, 
+VISIBLE = 1;  
+/* Calculations to calculate percentage of product to total product sales */
+CREATE MEMBER CURRENTCUBE.[Measures].[Internet Sales Ratio to All Products]
+ AS Case
+    When IsEmpty([Measures].[Reseller Sales-Sales Amount])
+    Then 0
+    Else([Product].[Product Categories].CurrentMember,
+         [Measures].[Internet Sales-Sales Amount])/
+        ([Product].[Product Categories].[(All)].[All],
+         [Measures].[Internet Sales-Sales Amount])
+    End, 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Sales Amount] }, 
+VISIBLE = 1  ;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Reseller Sales Ratio to All Products]
+ AS Case
+    When IsEmpty ( [Measures].[Reseller Sales-Sales Amount])
+    Then 0
+    Else ([Product].[Product Categories].CurrentMember,
+          [Measures].[Reseller Sales-Sales Amount])/
+         ([Product].[Product Categories].[(All)].[All],
+          [Measures].[Reseller Sales-Sales Amount])
+    End, 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Reseller Sales-Sales Amount] }, 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Total Sales Ratio to All Products]
+ AS Case
+    When IsEmpty ([Measures].[Total Sales Amount])
+    Then 0
+    Else ( [Product].[Product Categoires].CurrentMember,
+           [Measures].[total Sales Amount]) /
+         ( [Product].[Product Categories].[(All)].[All],
+           [Measures].[Total Sales Amount] )
+    End, 
+FORMAT_STRING = "Percent", 
+NON_EMPTY_BEHAVIOR = { [Internet Sales-Sales Amount], [Reseller Sales-Sales Amount] }, 
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="3c533e56-8a43-4d1f-8f1b-98b4b55ea7e2">
+      <ID>KPI 1</ID>
+      <Name>Product Gross Profit Margin</Name>
+      <Value>[Measures].[Total GPM]</Value>
+      <Goal>Case
+When [Product].[Category].CurrentMember Is
+[Product].[Category].[Accessories]
+Then .40
+When [Product].[Category].CurrentMember
+Is [Product].[Category].[Bikes]
+Then .12
+When [Product].[Category].CurrentMember Is
+[Product].[Category].[Clothing]
+Then .20
+When [Product].[Category].CurrentMember Is
+[Product].[Category].[Components]
+Then .10
+Else .12
+End</Goal>
+      <Status>Case
+When KpiValue( "Product Gross Profit Margin" ) /
+KpiGoal ( "Product Gross Profit Margin" ) &gt;= .90
+Then 1
+When KpiValue( "Product Gross Profit Margin" ) /
+KpiGoal ( "Product Gross Profit Margin" ) &lt; .90
+And
+KpiValue( "Product Gross Profit Margin" ) /
+KpiGoal ( "Product Gross Profit Margin" ) &gt;= .80
+Then 0
+Else -1
+End</Status>
+      <Trend>Case
+When IsEmpty
+(ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember))
+Then 0
+When VBA!Abs
+(KpiValue( "Product Gross Profit Margin" ) -
+(
+KpiValue ( "Product Gross Profit Margin" ),
+ParallelPeriod
+(
+[Date].[ Calendar Date].[ Calendar Year],
+1,
+[Date].[ Calendar Date].CurrentMember
+)
+) /
+(
+KpiValue ( "Product Gross Profit Margin" ),
+ParallelPeriod
+(
+[Date].[ Calendar Date].[ Calendar Year],
+1,
+[Date].[ Calendar Date].CurrentMember
+)
+)
+) &lt;=.02
+Then 0
+When KpiValue( "Product Gross Profit Margin" ) -
+(
+KpiValue ( "Product Gross Profit Margin" ),
+ParallelPeriod
+(
+[Date].[ Calendar Date].[ Calendar Year],
+1,
+[Date].[ Calendar Date].CurrentMember
+)
+) /
+(
+KpiValue ( "Product Gross Profit Margin" ),
+ParallelPeriod
+(
+[Date].[Calendar Date].[Calendar Year],
+1,
+[Date].[Calendar Date].CurrentMember
+)
+) &gt;.02
+Then 1
+Else -1
+End</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Cylinder</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="8c934f16-e8eb-4ec5-a5a7-a8ca591dc172">
+      <ID>KPI</ID>
+      <Name>Reseller Revenue</Name>
+      <AssociatedMeasureGroupID>Reseller Sales</AssociatedMeasureGroupID>
+      <Value>[Measures].[Reseller Sales-Sales Amount]</Value>
+      <Goal>[Measures].[Sales Amount Quota]</Goal>
+      <Status>Case
+    When
+    KpiValue ("Reseller Revenue")/KpiGoal("Reseller Revenue")&gt;=.95
+     Then 1
+    When
+    KpiValue("Reseller Revenue")/KpiGoal("Reseller Revenue")&lt;.95
+     And
+    KpiValue("Reseller Revenue")/KpiGoal("Reseller Revenue")&gt;=.85
+     Then 0
+    Else-1
+   End</Status>
+      <Trend>Case
+When IsEmpty
+(ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember))
+Then 0
+When (KpiValue("Reseller Revenue") -
+(KpiValue("Reseller Revenue"),
+ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember))
+/
+(KpiValue ("Reseller Revenue"),
+ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember)))
+&gt;=.02
+Then 1
+When(
+KpiValue("Reseller Revenue") -
+(KpiValue ( "Reseller Revenue" ),
+ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember))
+/
+(KpiValue("Reseller Revenue"),
+ParallelPeriod
+([Date].[Calendar Date].[Calendar Year],1,
+[Date].[Calendar Date].CurrentMember)))
+&lt;=.02
+Then -1
+Else 0
+End</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
 </Cube>

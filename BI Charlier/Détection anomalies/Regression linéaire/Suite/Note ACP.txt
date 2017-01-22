@@ -1,0 +1,45 @@
+ACP (anlayse composante principale) :
+	Premier objectif : beaucoup de variables à traiter, variables indépendante
+	Deuxième objectif : réduire le nombre de variable (réduire 4 pour le cours)
+
+Correlation : 
+	Corrélation est le fait que les variables sont liés entre elle. C'est grâce au tableau de corrélation
+que l'on peut voir si les variables sont corrélées entre elles grâce à leurs intersections. Plus la valeur
+de leurs intersections est proche de 1 plus elles sont corrélées et donc liées entre elles et plus la valeur
+est proche de 0 moins elles sont correlées entre elles. 
+	On va donc rassembler les valeurs fortement corrélées entre elles
+
+Communalities :
+	Donne la quantité de variabilité qui a été reprise dans les composantes. C'est à dire que avec
+les valeurs que l'on a là, on a déjà sortie 99.9% de la variabilités total. C'est donc très bien dans le
+cas de 99.9%
+
+Total Variance Explained :
+	Le nombre idéal de composantes à prendre est de 1 ou 2 car plus facile à visualiser et de faire des
+graphiques. Ou si on est au-délà de 80% on considère que c'est bien.
+
+Component Matrix :
+	Composante 1 = note global de l'élève.
+	Composante 2 = permet de distinguer les notes littéraire et scientifique.
+
+Graphique des individus :
+	Dans ce graphique on représente les personnes.
+Pour la composante 1 (axe de x) : si on est proche de 0 alors on a une note globale assez moyenne.
+Si on va plus sur la droite alors la note globale est plus élevé et si on va plus à gauche, la note 
+globale est moins élevé.
+
+Pour la composante 2 (axe des y) : si on est proche de 0 alors les notes sont similaires dans toutes les
+branches, si plus haut alors meilleur en littéraire car les branches littéraire sont positives et si bas
+alors meilleur dans les branches scientifiques.
+
+Graphique des vecteurs des variables : 
+	Dans ce graphique on représente les variables. (français, anglais, math physique).
+On imagine qu'il y a un cercle de rayon 1. Plus la variable est proche de 1 plus on a pris l'information
+contenu dans la variable pour les deux composantes. 
+L'angle entre les variables nous fait voir si les variables sont corrélées entre elles ou pas, 
+en effet si c'est un angle droit alors pas du tout corrélés et si petit degré pour l'angle alors 
+plus corrélées entre elles. 
+En fonction de la longueur par rapport à l'axe du composant 1 et 2 on sait où il est le plus représenté,
+en effet si la longueur sur le composant 1 est grande et que sur le composant 2 est petite alors plus
+représenté sur le composant 1. 
+

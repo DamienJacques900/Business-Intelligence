@@ -1,0 +1,11 @@
+Cartes de contrôles
+
+	Un procédé est sous contrôle quand les seules sources de variations sont les causes normales.
+	Si une valeur est en dehors des limites alors ça veut dire qu'elle est mauvaise et si c'est récurrent
+	alors il y un problème général. 
+
+Calcul des limites de surveillance et contrôle :
+
+Pour obtenir le alpha, il faut utilser la table de Laplace-Gauss. Il faut prendre la valeur de la limite,
+(0.05 ou 0.002) et la diviser par deux (0.025 ou 0.001) et ensuite faire 1 - alpha (0.975 ou 0.999). Ensuite
+on prend la valeur pour ces valeurs dans la table de Laplace-Gauss (1.96 et 3.09).

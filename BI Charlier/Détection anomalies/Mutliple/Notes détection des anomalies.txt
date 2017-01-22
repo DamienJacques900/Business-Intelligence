@@ -1,0 +1,30 @@
+Détection des anomalies :
+
+On utilise la détection des anomalies pour :
+	- le hacking des compte hotmail
+	- retrait anormaux
+	- détection des valeurs aberrantes dans une BD
+
+Pour faire des détections il faut d'abord choisir les variables qui sont utiles :
+Par exemple la détection du bon fonctionnenment de moteur d'avions. Des variables utiles pourront être par
+exemple la chaleur qu'ils dégagent où l'intensité des vibrations émisent.
+
+On prend deux caractéristiques d'avion pour pouvoir visualiser plus facilement car ce sera un graphe en 
+2 dimensions. 
+
+Les valeurs seront en grande partie concentré ensemble et plus on s'éloigne, moins il y aura de valeurs, la 
+probabilité est moindre. 
+Ensuite on va prendre une nouvelle valeur d'avion et on va voir si elle se situe entre les valeurs, alors là
+c'est ok et en dehors, alors là il y a une détection d'une anomalie.
+
+En résumé :
+	- D'abord on regarde les caractéristiques à observer(chaleur et vibrations
+	- Ensuite on va prendre un jeu de données sur n individu (n étant très grand)
+	- On va donc avoir le modèle qui permettra de dire si on est dedans alors c'est ok sinon il y a une
+	anomalie.
+
+Création du modèle :
+	- Faire en sorte qu'on ai une loi normale
+
+Il faut calculer p(x) et voir si il est plus petit que le seuil fixé, si c'est la cas, alors il y a 
+une anomalie.

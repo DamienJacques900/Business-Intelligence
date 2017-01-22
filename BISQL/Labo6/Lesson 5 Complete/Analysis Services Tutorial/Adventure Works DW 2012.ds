@@ -3,8 +3,8 @@
   <Name>Adventure Works DW 2012</Name>
   <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2012</ConnectionString>
-  <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=IE-010-W3200M28\BD3IG2016;Password=;User ID=;Initial Catalog=AdventureWorksDW2014</ConnectionString>
+  <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
