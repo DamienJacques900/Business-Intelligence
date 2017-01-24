@@ -19,5 +19,7 @@ Note labo 3 :
 
 Vérification à faire pour déployer le cube?
 
-	- Dans le propriété du projet, au niveau du deployment vérifier que le serveur est bon et que la database
-est bien celle du nom du projet.
+	- Dans le propriété du projet, au niveau du deployment vérifier que le serveur est bon c'est à dire
+que c'est localhost pour chez nous mais que c'est le IE-010-W3200M28\BD3IG2016 pour le serveur à l'école en 
+changeant la 010 par le local concerné et le 28 par l'ordi concerné et que la database est bien celle du nom 
+du projet.
