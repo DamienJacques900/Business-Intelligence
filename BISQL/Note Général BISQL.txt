@@ -1,4 +1,23 @@
+Les projet créée dans visual studio 2010 sont dans document\visual studio 2010\projects\
+
+Note labo 1:
+
+	Pour créer les tables il faut prendre le script dans AdventureWork2012OLTPScript et changer les chemins
+d'accès, le premier et où sera mis les valeurs et le second sera d'où viennent les données. Il faut utiliser
+Microsoft SQL server management studio pour créer la BD et il faut s'assurer que dans query on est bien sur
+SQLCMD mode! Ne pas non plus oublier le \ à la fin du chemin d'accès.
+	Il faut refresh le dossier Databases pour voir si la BD a bien été créé ou pas.
+
+Note labo 2 :
+
+	Pour faire une requête à la BD qu'on fait on fait clique droit dessus et on fait new query.
+
+Note labo 3 :
+	
+
+
+
 Vérification à faire pour déployer le cube?
 
-	-
-	-
+	- Dans le propriété du projet, au niveau du deployment vérifier que le serveur est bon et que la database
+est bien celle du nom du projet.
